@@ -19,7 +19,7 @@ declare class Tracker {
 }
 
 interface GoogleAnalyticsCode {
-    push(commandArray: Array<string|boolean|number>): void;
+    push(commandArray: Array<string | boolean | number>): void;
     push(func: Function): void;
 }
 
@@ -637,7 +637,7 @@ declare namespace UniversalAnalytics {
     }
 }
 
-declare var gaClassic: GoogleAnalytics;
-declare var ga: UniversalAnalytics.ga;
-declare var _gaq: GoogleAnalyticsCode;
-declare var _gat: GoogleAnalyticsTracker;
+export declare var gaClassic: GoogleAnalytics;
+export declare var ga: UniversalAnalytics.ga;
+export declare var _gaq: GoogleAnalyticsCode;
+export declare var _gat: GoogleAnalyticsTracker;
